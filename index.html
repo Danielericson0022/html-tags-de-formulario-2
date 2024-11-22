@@ -11,7 +11,7 @@
 <body>
 
     <form>
-        <fieldset>
+        <fieldset class="fieldset-1">
             <legend> dados pessoais</legend>
             <div>
                 <label for="nome">nome</label>
@@ -27,21 +27,23 @@
                 <label for="telefone">telefone</label>
                 <input id="telefone" type="text">
             </div>
-            
+
 
 
 
         </fieldset>
 
 
-        <fieldset>
+        <fieldset class="fieldset-2">
             <legend> dados cadastrais</legend>
             <div>
                 <label for="endereco">Endereço</label>
                 <input id="endereco" type="text" placeholder="av/rua">
+            </div>
             <div>
                 <label for="bairro">bairro</label>
                 <input id="bairro" type="text">
+            </div>
             </div>
             <div>
                 <label for="cidade">cidade</label>
@@ -55,23 +57,24 @@
                     <option>Maracanaú</option>
                     <option>Maranguape</option>
                 </datalist>
-                <div>
-                    <label for="estado">Estado</label>
-                    <select id="estado">
-                        <option disabled selected>Escolha um estado</option>
-                        <option>Ceará</option>
-                        <option>Bahia</option>
-                        <option>Acre</option>
-                        <option>Distrito Federal</option>
-                    </select>
-                </div>
-            
             </div>
-    
+            <div>
+                <label for="estado">Estado</label>
+                <select id="estado">
+                    <option disabled selected>Escolha um estado</option>
+                    <option>Ceará</option>
+                    <option>Bahia</option>
+                    <option>Acre</option>
+                    <option>Distrito Federal</option>
+                </select>
+            </div>
+
+            </div>
+
 
         </fieldset>
 
-        <fieldset>
+        <fieldset class="fieldset-3">
             <legend> dados do curso</legend>
             <div>
                 <label>Cursos</label>
@@ -101,8 +104,8 @@
                         </label>
                     </li>
                 </ul>
-            
-                
+
+
             </div>
 
             <div>
@@ -126,11 +129,12 @@
                             Tarde
                         </label>
                     </li>
-                  
+
                 </ul>
             </div>
 
         </fieldset>
+        <button type="submit">Enviar</button>
     </form>
 </body>
 
